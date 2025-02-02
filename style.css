@@ -1,0 +1,452 @@
+/* side nav section */
+.side-nav
+{
+    background-color: black;
+    height: 100vh;
+    position: fixed; /* Fix sidebar to the left */
+    top: 0;
+    left: 0;
+    width: 25%; /* Matches Bootstrap col-3 width (25% of 12-column grid) */
+    overflow-y: auto; /* Enable scrolling if content overflows */
+    
+    
+
+}
+.my_image_side_nav
+{
+    width:120px;
+    height:120px;
+    display: block;
+    margin: 3vh auto;
+    border-radius: 50%;
+    outline: grey solid 5px;
+
+}
+.my_name
+{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3vh;
+}
+.social-media
+{
+    text-align: center;
+    margin-top: 3vh;
+}
+.social-media a
+{
+    color: white;
+    background-color: grey;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-left: 10px;
+
+    
+}
+.social-media .fa-x-twitter:hover
+{
+    background-color: green;
+    color: white;
+    
+}
+.social-media .fa-facebook:hover
+{
+    background-color: green;
+    color: white;
+    
+}
+.social-media .fa-instagram:hover
+{
+    background-color: green;
+    color: white;
+    
+}
+.social-media .fa-github:hover
+{
+    background-color: green;
+    color: white;
+    
+}
+.social-media .fa-linkedin:hover
+{
+    background-color: green;
+    color: white;
+    
+}
+.nav
+{
+    margin-top: 3vh;
+    text-align: left;
+    font-size: 20px;
+}
+
+.nav-item a
+{
+    color: white;
+    margin-bottom: 20px;
+    
+}
+.nav-item i
+{
+    color: white;
+    margin-right: 10px;
+}
+.nav-item a:hover i
+{
+    color: green;
+}
+.nav-item a:hover
+{
+    color: white;
+}
+
+/* main content */
+.main-content 
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                        url("./images/my_image.png");
+    background-repeat: no-repeat;
+    background-size:cover;  
+    position: relative; 
+    margin-left: 25%; /* Adjust to match col-3 width */
+    height: 100vh; /* Full viewport height */
+    overflow-y: auto; /* Make content scrollable */
+}
+.name-main-content
+{
+    color:white;
+    position: relative;
+    top:50vh;
+    font-size: 50px;
+}
+.iam
+{
+    color:white;
+    position: relative;
+    top:50vh;
+    font-size: 20px;
+}
+.typed-cursor {
+    font-weight: 1000;
+    font-size: 30px;
+    animation: blink 0.7s infinite step-end;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+.contents
+{
+    position: relative; 
+    margin-left: 25%; /* Adjust to match col-3 width */
+    height: 100vh; /* Full viewport height */
+    overflow-y: auto; /* Make content scrollable */
+    width: 75%!important;
+    
+}
+.contents-about-heading .heading-1
+{
+    margin-top: 5vh;
+}
+.contents-about-heading-hr
+{
+    border-top: 5px solid green;
+    width: 50px;
+
+}
+.contents-about-main
+{
+    position: relative;
+    top: 10vh;
+}
+.about-image
+{
+    max-width: 100%;
+    height: auto;
+}
+.flex-column-1 ul
+{
+    list-style-type: none;
+}
+.flex-column-1 ul i
+{
+    color: green;
+    margin-right: 10px;
+}
+.flex-column-1 ul li
+{
+    margin-bottom: 3vh;
+}
+.flex-column-1
+{
+    display: flex;
+    margin-top: 3vh;
+}
+.age-group
+{
+    position: relative;
+    left: 100px;
+}
+.Happy-client-block
+{
+    margin-top: 20vh;
+    margin-left: 20px;
+    
+}
+.Happy-client-block ul
+{
+    list-style-type: none;
+    display: flex;
+    
+    
+}
+.Happy-client-block ul span
+{
+    font-size: 40px;
+    
+}
+.Happy-client-block ul i
+{
+    color: green;
+    margin-right: 10px;
+    font-size: 40px;
+}
+.Happy-client-block ul li
+{
+    margin-right: 100px;
+}
+.skill-block
+{
+    background-color: #f4fafd;
+    margin-top: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+.skill-block-1 ul,.skill-block-2 ul
+{
+    list-style-type: none;
+}
+.skill-block-1 ul li,.skill-block-2 ul li
+{
+    margin-bottom: 3vh;
+}
+.skill-block-1 h1,.skill-block-2 h1
+{
+    text-align: center;
+}
+/* resume section */
+.resume-section {
+    margin-bottom: 2rem;
+}
+.resume-section h2 {
+    /* border-bottom: 2px solid #28a745; */
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: black; /* Green color for headings */
+}
+.contact-info {
+    list-style-type: none;
+    padding-left: 0;
+}
+.contact-info li {
+    margin-bottom: 0.5rem;
+}
+.technical-skills, .soft-skills {
+    margin-bottom: 1.5rem;
+}
+.education-background, .work-experience, .achievements {
+    margin-bottom: 1.5rem;
+}
+.green-line {
+    border-left: 4px solid #28a745; /* Green line */
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+.resume-block
+{
+    margin-top: 10vh;
+}
+/* portfolio block */
+/* Portfolio Section */
+.portfolio {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    text-align: left;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #34b7a7;
+    bottom: 0;
+    left: calc(3% - 25px);
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+  }
+  
+  .portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .portfolio-item {
+    flex: 1 1 calc(33.333% - 20px);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .portfolio-wrap {
+    position: relative;
+    overflow: hidden;
+    width: 300px; /* Match image size */
+    height: 250px; /* Match image size */
+  }
+  
+  .portfolio-wrap img {
+    width: 300px;
+    height:250px;
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolio-wrap:hover img {
+    transform: scale(1.1);
+  }
+  
+  .portfolio-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(52, 183, 167, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .portfolio-wrap:hover .portfolio-info {
+    opacity: 1;
+  }
+  
+  .portfolio-info h4 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-info p {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  
+  .portfolio-links {
+    margin-top: 10px;
+  }
+  
+  .portfolio-links a {
+    color: #fff;
+    margin: 0 5px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .portfolio-links a:hover {
+    color: #173b6c;
+  }
+  /* contact */
+  .contact-block
+  {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+  .contact-section ul li
+  {
+    margin-bottom: 40px;
+  }
+  /* burgger menu */
+  /* Burger Menu Styles */
+.burger-menu {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: #333;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.burger-menu:hover {
+    background: #28a745;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .burger-menu {
+        display: block;
+    }
+    
+    .side-nav {
+        left: -100%;
+        width: 75%;
+        transition: all 0.3s ease-in-out;
+        z-index: 999;
+    }
+    
+    .side-nav.active {
+        left: 0;
+        width: 100%;
+    }
+    
+    .main-content,
+    .contents {
+        margin-left: 0;
+        width: 100% !important;
+    }
+    
+    /* Close icon rotation */
+    .burger-menu .fa-times {
+        transform: rotate(180deg);
+    }
+    
+    /* Prevent body scroll when menu is open */
+    body.side-nav-active {
+        overflow: hidden;
+    }
+}
+  

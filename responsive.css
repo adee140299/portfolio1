@@ -1,0 +1,37 @@
+/* For tablets and smaller screens */
+@media (max-width: 1024px) {
+    .flex-column-1 {
+        display: flex;
+    }
+}
+
+/* For mobile screens (max-width: 767px) */
+@media (max-width: 767px) {
+    .flex-column-1 {
+        display: block !important;
+    }
+    .age-group {
+        position: relative;
+        left: 0px;
+    }
+    .Happy-client-block ul {
+        list-style-type: none;
+        display: block;
+    }
+}
+
+/* For very small mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .flex-column-1 {
+        display: block !important;
+    }
+    .age-group {
+        position: relative;
+        left: 0px;
+    }
+    .Happy-client-block ul {
+        list-style-type: none;
+        display: block;
+    }
+}
+
